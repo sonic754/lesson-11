@@ -1,0 +1,148 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+.container{
+max-width: 90%;
+margin: 0 auto;
+}
+nav{
+display: flex;
+justify-content: space-between;
+}
+header{
+background-image: url(header.png);
+height: 1024px;
+background-repeat:no-repeat ;
+background-size: cover;
+}
+.nav__left{
+display: flex;
+align-items: center;
+gap: 50px;
+}
+.for__free{
+border: none;
+background-color: #009ff5b5;
+display: flex;
+align-items: center;
+color: white;
+gap: 21px;
+padding: 9px 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 4px 0px #dad3ff;
+text-shadow: 3px 3px 3px red;
+}
+.nav__left p{
+color: white;
+font-size: 20px;
+font-weight: 700;
+}
+.nav__right{
+display: flex;
+align-items: center;
+font-weight: 700;
+font-size: 20px;
+color: white;
+gap: 5px;
+}
+.header__title h2{
+font-size: 36px;
+font-weight: 700;
+background-color: #FFC611;
+border: 11px solid #5A5555;
+border-radius: 50px;
+text-shadow: 0px 4px 4px #0047ff;
+text-align: center;
+width: 604px;
+}
+.header__title{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 500px;
+}
+nav{
+padding: 20px 0;
+}
+.header__content{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.box{
+width: 360px;
+background-color: #1f1f1f;
+text-align: center;
+box-shadow: 8px 7px 20px 0px #ffffff;
+}
+.box img{
+width: 360px;
+height: 353px;
+object-fit: cover;
+}
+.box h2{
+font-weight: 60;
+font-size: 36px;
+text-shadow: 0px 4px 4px #FFC200;
+}
+main{
+background-color: black;
+display: flex;
+height: 1042px;
+}
+main h2{
+font-weight: 600;
+font-size: 64px;
+color: #5A5555;
+text-shadow:0px 4px 4px #ffffff ;
+text-align: center;
+}
+section{
+display: flex;
+align-items: center;
+gap: 87px;
+color: white;
+}
+section p{
+font-size: 27px;
+font-weight: 600;
+margin-bottom: 104px;
+}
+section button{
+background-color: #FFC200;
+border: none;
+font-size: 27px;
+font-weight: 700;
+box-shadow: 0px 7px 12.8px 0px #FFFFFF;
+text-shadow:0px 4px 4px #040404CF ;
+width: 278px;
+height: 61px;
+transition: 500ms;
+}
+section button:hover{
+background-color: #535353;
+color: white;
+}
+.section2{
+flex-direction: row-reverse;
+margin-top: 180px;}
+footer{
+display: flex;
+background-color: #FFC611;
+gap: 1150px;
+height:158px ;
+width: 1521px;
+align-items: center;
+
+}
+.right{
+display: flex;
+gap: 20px;
+width: 45px;
+height: 45px;
+}
+.left{
+padding-left: 30px;
+}
